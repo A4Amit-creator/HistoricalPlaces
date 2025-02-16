@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        nav {
+            justify-content: center;
+            display: flex;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(175, 139, 228);
+            font-size: 20px;
+            position: sticky;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        .box {
+            margin: 30px;
+            border: 2px solid rgb(207, 204, 204);
+            height: auto;
+            width: 270px;
+            border-radius: 5%;
+
+
+        }
+
+        img {
+            margin: 10px;
+            border-radius: 5%;
+        }
+
+        .button {
+            margin: 10px;
+        }
+
+        .nature {
+            background-color: white;
+            border-radius: 40px;
+            border: 1.5px solid rgb(183, 183, 183);
+            color: rgb(118, 118, 118);
+        }
+
+        .nature:hover {
+            border: solid 1.5px rgb(152, 152, 152);
+        }
+
+        .heading {
+            padding-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(57, 56, 56);
+        }
+
+        p {
+            padding-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(92, 92, 92);
+        }
+
+        .read {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+        .readmore {
+            width: 100px;
+            padding: 10px;
+            font-size: 10px;
+            font-weight: 600;
+            background-color: rgb(213, 230, 247);
+            color: rgb(0, 140, 255);
+            border-radius: 40px;
+            border: 1px solid white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .readmore:hover {
+            border: 1px solid rgb(165, 211, 250);
+        }
+        
+        .container{
+            width: 100vw;
+            /* height: 50vh; */
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /* column-gap: 34px;
+            row-gap: 10px; */
+            justify-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li>India</li>
+            <li>Packages</li>
+            <li>Places to visit</li>
+            <li>How to Reach</li>
+            <li>Flights</li>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="item">
+                <div class="box">
+                    <img src="https://t3.ftcdn.net/jpg/04/01/43/06/360_F_401430617_QU5FmwCbN3oiysrAnVN2yXreAkbPOESe.jpg"
+                        width="250px">
+
+                    <div class="heading">
+                        <h3>INDIA GATE</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, sequi?
+                    </p>
+                    <div class="read">
+                        <button class="readmore">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="https://media.istockphoto.com/id/519330110/photo/taj-mahal-agra-india-monument-of-love-in-blue-sky.jpg?s=612x612&w=0&k=20&c=Uma6Q7KduznA6jUKcSquFP1iHHiw8UXcZEYVLONrmaQ="
+                        width="250px">
+
+                    <div class="heading">
+                        <h3>TAJ MAHAL</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, sequi?
+                    </p>
+                    <div class="read">
+                        <button class="readmore">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="https://media.istockphoto.com/id/530741074/photo/red-fort-lal-qila-with-indian-flag-delhi-india.jpg?s=612x612&w=0&k=20&c=7BTI-dgQNPPTq2yARrwIBf2yIqO4PUPX1EJY5ITIyoM="
+                        width="250px">
+
+                    <div class="heading">
+                        <h3>RED FORT</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, sequi?
+                    </p>
+                    <div class="read">
+                        <button class="readmore">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="https://media.istockphoto.com/id/1215274990/photo/high-wide-angle-view-of-charminar-in-the-night.jpg?s=612x612&w=0&k=20&c=byyIjqgbslf-L191n6SJu0s35fvNoVeWsxV5rIPK7Sk="
+                        width="250px">
+
+                    <div class="heading">
+                        <h3>CHAR MINAR</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, sequi?
+                    </p>
+                    <div class="read">
+                        <button class="readmore">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item"><div class="item">
+                <div class="box">
+                    <img src="https://t4.ftcdn.net/jpg/04/14/96/55/360_F_414965542_INsbjDDGtlqAPS2lGlkQxkuQc1JmUWVc.jpg"
+                        width="250px">
+
+                    <div class="heading">
+                        <h3>QUTUB MINAR</h3>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, sequi?
+                    </p>
+                    <div class="read">
+                        <button class="readmore">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
